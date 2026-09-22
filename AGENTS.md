@@ -55,6 +55,18 @@ If a source cannot be accessed, is only partially available, or cannot be reliab
 
 Prefer primary sources when they are available.
 
+## Reliability Assessment
+
+For every source that is sufficiently available to summarize, record a reliability assessment. Apply it to all knowledge entries, not only news or technical articles.
+
+Use a deliberately conservative 100-point scale. A high score should require strong evidence, not merely plausible writing or a reputable-looking publisher. Consider primary-source proximity, citations/evidence, reproducibility or independent verifiability, separation of fact from opinion, freshness where time-sensitive, and whether important claims are appropriately qualified.
+
+Treat opinion, design guidance, personal experience, case studies, product announcements, journalism, and primary technical specifications differently. Do not penalize a source merely for being an individual author, but do not treat personal experience as general evidence.
+
+When the full source is unavailable or only partial information was obtained, write `reliability: unscored` and explain why rather than inventing a numeric score.
+
+A reliability score evaluates how safely the stored claims can be reused as evidence; it is not a score for writing quality or the author's ability.
+
 ## Using Knowledge
 
 When the user asks a question, requests advice, or wants help thinking through a problem:
