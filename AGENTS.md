@@ -51,22 +51,22 @@ Clearly distinguish between:
 
 Never invent missing content.
 
-If a source cannot be accessed, is only partially available, or cannot be reliably understood, do not place it in `knowledge/`. Record it in `failed-sources.md` instead of guessing its contents.
+If a source cannot be accessed, is only partially available, or cannot be reliably understood, do not place it in `knowledge/`. Record it in `failed.md` instead of guessing its contents.
 
 Prefer primary sources when they are available.
 
 ## Failed Source Retry
 
-Keep failed or incomplete retrievals in `failed-sources.md`, separate from reusable knowledge.
+Keep failed or incomplete retrievals in `failed.md`, separate from reusable knowledge.
 
 Each failed entry should preserve the original URL, the date it was first requested, the last retry date, what retrieval methods were attempted, and why the source is still insufficient.
 
-Retry entries in `failed-sources.md` occasionally, especially when working on Yggdrasil ingestion or maintenance. Do not rely only on direct URL access: when appropriate, also try web search, exact-title/URL search, author/site search, canonical or primary sources, transcripts, cached/indexed copies, and legitimate mirrors or quotations.
+Retry entries in `failed.md` occasionally, especially when working on Yggdrasil ingestion or maintenance. Do not rely only on direct URL access: when appropriate, also try web search, exact-title/URL search, author/site search, canonical or primary sources, transcripts, cached/indexed copies, and legitimate mirrors or quotations.
 
 When a retry succeeds and the source can be read sufficiently:
 1. create or restore its proper summary in the original `knowledge/YYYYMMDD.md` file using the date it was first added;
 2. assess reliability normally;
-3. remove the entry from `failed-sources.md`.
+3. remove the entry from `failed.md`.
 
 Do not leave placeholder summaries or `reliability: unscored` entries in `knowledge/`.
 
